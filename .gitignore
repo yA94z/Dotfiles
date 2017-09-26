@@ -1,0 +1,6 @@
+/.vim/bundle
+/.vim/dein
+/.vim/eclim
+/.vim/plugin
+tmp/*
+!.gitkeep

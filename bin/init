@@ -1,0 +1,22 @@
+#!/bin/bash
+
+source ../lib/*.sh
+
+usage() {
+	cat <<_EOT_
+	init is a script for terminal initialization.
+
+	Usage:
+		init [-a] [-b] [-z] 
+
+	Description:
+		hogehoge
+
+	Options:
+		-a	all
+		-b	bash hoge
+		-z	zsh poge
+
+_EOT_
+exit 1
+}

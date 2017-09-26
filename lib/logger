@@ -1,0 +1,25 @@
+#!/bin/bash
+
+LOGO='
+ ____        _    __ _ _
+|  _ \  ___ | |_ / _(_) | ___  ___
+| | | |/ _ \| __| |_| | |/ _ \/ __|
+| |_| | (_) | |_|  _| | |  __/\__ \
+|____/ \___/ \__|_| |_|_|\___||___/
+
+'
+print_error() {
+	printf "\e[31m ERROR: $1 \e[m\n"
+}
+
+print_run() {
+	printf "\e[32m RUN: $1 \e[m\n"
+}
+
+print_info() {
+	printf "\e[34m INFO: $1 \e[m\n"
+}
+
+print_logo() {
+	printf "\e[33m $LOGO\n\e[m"
+}

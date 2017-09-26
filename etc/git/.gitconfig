@@ -1,0 +1,15 @@
+[user]
+	email = qqgu8rq9k@theia.ocn.ne.jp
+	name = Yakusaji
+[color]
+	ui = auto
+
+[core]
+	editor = vim
+
+[alias]
+	s = status
+	co = checkout
+
+[merge]
+	tool = vimdiff

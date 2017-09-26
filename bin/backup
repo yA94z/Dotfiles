@@ -1,0 +1,12 @@
+#!/bin/bash
+
+for file in *
+do
+	case $file in
+		*.bak)
+			continue
+			;;
+	esac
+	cp -p "$file" "$file".bak
+done
+
