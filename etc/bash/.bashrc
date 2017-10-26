@@ -119,3 +119,7 @@ fi
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/yA94z/.sdkman"
 [[ -s "/home/yA94z/.sdkman/bin/sdkman-init.sh" ]] && source "/home/yA94z/.sdkman/bin/sdkman-init.sh"
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+
+export PATH="/opt/nim-0.17.2/bin:$PATH"
